@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "marble-top"
+  spec.name          = "grapevine"
   spec.version       = "0.1.0"
   spec.authors       = ["Obianuju Vivian Ezeoke"]
   spec.email         = ["me@ujuezeoke.com"]

@@ -4,9 +4,9 @@
 
 
         <span class="site-title">
-            <img src="{{ "/assets/companyIcon.svg" | site.company_image }}"/>
+            <img src="{{ site.company_image }}"/>
         </span>
-        <a class="site-title" href="{{ "/" | relative_url}}">{{ "Company Name" | site.title }}</a>
+        <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
 
         <nav class="site-nav">
             <!--<span class="menu-icon">-->

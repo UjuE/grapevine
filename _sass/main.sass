@@ -7,13 +7,16 @@ $shell: #F8EEE7
 
 @mixin linear-gradient($direction, $color-stops...)
   :background nth(nth($color-stops, 1), 1)
-  //:background -webkit-linear-gradient(legacy-direction($direction), $color-stops)
   :background linear-gradient($direction, $color-stops)
 
 html
   :background-color $shell
   :color $grey-color
   :font-family "Trebuchet MS", serif
+
+hr
+  :height 0.15px
+  :background-color $grape_transparent
 
 h1, h2, h3, h4, h5, h6
   :color $egg_plant
@@ -106,7 +109,7 @@ code, .page-content table
   :width 85%
 
 code
-  :font-family "Courier New"
+  :font-family "Courier New", monospace
   :font-size 10pt
   :background-color $grape_transparent
   :padding-top 3px

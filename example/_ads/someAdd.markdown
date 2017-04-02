@@ -1,0 +1,4 @@
+---
+layout: ads
+name: someStuff
+---

@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6
 
 h1
   :text-align center
+  :border-bottom 1px rgba(73, 39, 74, 0.27) inset
 
 a
   :color $grape
@@ -160,14 +161,19 @@ code
   :display inline-block
 
 .home .post-content
-  :min-width 70%
-  :display inline-block
-  :float left
-
+  :max-width 70%
+  :display inline-table
 
 .home .additional-content
-  :min-width 30%
-  :display inline-block
+  :max-width 30%
+  :display initial
   :vertical-align top
-  :float left
 
+.post-content ul li
+  :list-style none
+  :text-align center
+  :width 24%
+  :margin-left 1%
+  :display inline-table
+  :height 200px
+  :vertical-align top

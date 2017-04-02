@@ -23,6 +23,9 @@ layout: default
         </ul>
     </div>
     <div class="additional-content">
-        Hello
+        {% for ad in site.ads %}
+        <span>{{ ad.name }}</span>
+        <br/>
+        {% endfor %}
     </div>
 </div>

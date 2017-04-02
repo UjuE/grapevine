@@ -17,6 +17,8 @@ icon: /assets/companyIcon.svg #Favicon for all other browsers
 # Build settings
 markdown: kramdown
 theme: grapevine
+collections:
+  - ads
 exclude:
   - Gemfile
   - Gemfile.lock

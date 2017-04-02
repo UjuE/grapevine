@@ -1,8 +1,11 @@
 $grey-color: #828282 !default
 $grape: #94618E
 $grape_transparent: rgba(148, 97, 142, 0.14)
+$grape_less_transparent: rgba(148, 97, 142, 0.25)
 $egg_plant: #49274A
 $sand: #F4DECB
+$dark_sand: #ddc2aa
+$dark_shell: #f9eadd
 $shell: #F8EEE7
 
 @mixin linear-gradient($direction, $color-stops...)
@@ -12,7 +15,7 @@ $shell: #F8EEE7
 html
   :background-color $shell
   :color $grey-color
-  :font-family "Trebuchet MS", serif
+  :font-family "Times New Roman", serif
 
 hr
   :height 0.15px
@@ -40,6 +43,7 @@ footer .wrapper
   :background-color $sand
   :padding 1.5%
   :width 87.5%
+  :display block
 
 footer .wrapper li
   :list-style none
@@ -131,3 +135,39 @@ code
 .page-content table tbody tr td
   :padding-left 0.5%
   :padding-right 0.5%
+
+.post-link li
+  :list-style none
+  :text-align center
+  :width 32%
+
+.footer-col
+  :display inline-block
+  :width 32%
+  :vertical-align top
+
+.footer-col a:hover
+  :background-color inherit
+  :color $grape
+  :text-decoration underline
+
+.post-meta
+  :font-size 8pt
+  :font-style italic
+  :color $grape_less_transparent
+
+.home div
+  :display inline-block
+
+.home .post-content
+  :min-width 70%
+  :display inline-block
+  :float left
+
+
+.home .additional-content
+  :min-width 30%
+  :display inline-block
+  :vertical-align top
+  :float left
+

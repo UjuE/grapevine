@@ -40,3 +40,9 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+## Credit
+
+The sample Company logo is courtesy of [Becris]( https://creativemarket.com/Becris).
+The Google+ icon is due to [Freepik](http://www.freepik.com). 
+Both images were downloaded from [Flaticon.com](http://www.flaticon.com/).
+

@@ -1,4 +1,4 @@
-# grapevine
+# grapevine-jekyll-theme
 
 This is a Jekyll theme, built with someone with no artistic skills. It was built using the Jekyll's minima theme as inspiration.
 
@@ -7,13 +7,13 @@ This is a Jekyll theme, built with someone with no artistic skills. It was built
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "grapevine"
+gem "grapevine-jekyll-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: grapevine
+theme: grapevine-jekyll-theme
 ```
 
 And then execute:

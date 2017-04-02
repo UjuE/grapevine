@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "grapevine"
+  spec.name          = "grapevine-jekyll-theme"
   spec.version       = "0.1.0"
   spec.authors       = ["Obianuju Vivian Ezeoke"]
   spec.email         = ["me@ujuezeoke.com"]

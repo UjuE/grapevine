@@ -16,7 +16,7 @@ icon: /assets/companyIcon.svg #Favicon for all other browsers
 
 # Build settings
 markdown: kramdown
-theme: grapevine
+theme: grapevine-jekyll-theme
 collections:
   - ads
 exclude:

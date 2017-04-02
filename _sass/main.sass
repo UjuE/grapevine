@@ -1,12 +1,12 @@
 $grey-color: #828282 !default
-$grape: #94618E
-$grape_transparent: rgba(148, 97, 142, 0.14)
-$grape_less_transparent: rgba(148, 97, 142, 0.25)
-$egg_plant: #49274A
-$sand: #F4DECB
-$dark_sand: #ddc2aa
-$dark_shell: #f9eadd
-$shell: #F8EEE7
+$grape: #94618E !default
+$grape_transparent: rgba(148, 97, 142, 0.14) !default
+$grape_less_transparent: rgba(148, 97, 142, 0.25) !default
+$egg_plant: #49274A !default
+$sand: #F4DECB !default
+$dark_sand: #ddc2aa !default
+$dark_shell: #f9eadd !default
+$shell: #F8EEE7 !default
 
 @mixin linear-gradient($direction, $color-stops...)
   :background nth(nth($color-stops, 1), 1)
@@ -161,13 +161,13 @@ code
   :display inline-block
 
 .home .post-content
-  :min-width 70%
+  :width 100%
   :display inline-table
 
-.home .additional-content
-  :max-width 30%
-  :display initial
-  :vertical-align top
+//.home .additional-content
+//  :max-width 30%
+//  :display initial
+//  :vertical-align top
 
 .post-content ul li
   :list-style none
